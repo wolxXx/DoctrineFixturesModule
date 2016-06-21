@@ -1,5 +1,5 @@
 {
-    "name": "ewgo/doctrine-fixtures-module",
+    "name": "wolxxx/doctrine-fixtures-module",
     "description": "Zend Framework 2 integration with the Doctrine Fixtures library",
     "keywords": ["zf2", "doctrine", "fixtures"],
     "type": "zf2-module",
