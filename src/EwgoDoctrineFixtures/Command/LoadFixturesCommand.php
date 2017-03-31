@@ -60,13 +60,7 @@ EOT
     {
         $em = $this->serviceLocator->get('doctrine.entitymanager.' . ($input->getOption('em') ? $input->getOption('em') : 'orm_default'));
 
-        if ($input->isInteractive() && !$input->getOption('append')) {
-            $dialog = $this->getHelperSet()->get('dialog');
-            if (!$dialog->askConfirmation($output, '<question>Careful, database will be purged. Do you want to continue Y/N ?</question>', false)) {
-                return;
-            }
-        }
-
+     
         $dirOrFile = $input->getOption('fixtures');
         if ($dirOrFile) {
             $paths = is_array($dirOrFile) ? $dirOrFile : array($dirOrFile);
