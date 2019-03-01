@@ -6,7 +6,7 @@
     "require": {
         "zendframework/zendframework": "2.5.*",
         "doctrine/data-fixtures": "1.1.1",
-        "doctrine/doctrine-module": "0.8.*"
+        "doctrine/doctrine-module": "2.1.*"
     },
     "autoload": {
         "psr-0": { "EwgoDoctrineFixtures": "src/" },
