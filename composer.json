@@ -3,9 +3,7 @@
     "description": "Zend Framework 2 integration with the Doctrine Fixtures library",
     "keywords": ["zf2", "doctrine", "fixtures"],
     "type": "zf2-module",
-    "require": {
-        "zendframework/zendframework": "2.5.*",
-        "doctrine/data-fixtures": "1.1.1",
+    "require": {        
         "doctrine/doctrine-module": "2.1.*"
     },
     "autoload": {
